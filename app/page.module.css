@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.slideUp {
+  transform: translateY(-100vh);
+}
+.bg-list-bg {
+  background-image: url("/images/list_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
